@@ -1,6 +1,7 @@
 import React from 'react';
 import Clock from './Clock'
 import Folder from './Folder'
+import Weather from './Weather'
 
 const folders = [
   {title: 'one', content: 'I am the first'},
@@ -8,11 +9,11 @@ const folders = [
   {title: 'three', content: 'Third folder here'}
 ];
 
-
 const Root = () => {
   return (
     <div>
       <Clock />
+      <Weather />
       <Folder folders={folders} />
     </div>
   );

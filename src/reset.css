@@ -50,3 +50,19 @@ a, article, body, button, div, fieldset, footer, form, h1, h2, header, html, i, 
     font-family: Orbitron;
     font-size: 20px;
   }
+
+  .weather-box {
+    display: flex;
+    font-size: 28px;
+    width: 650px;
+    height: 125px;
+    border: 2px solid black;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    background-size: cover;
+    background-position-y: 20%;
+  }

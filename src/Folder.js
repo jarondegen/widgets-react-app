@@ -17,7 +17,6 @@ const Headers = ({ titles, currentTab, selectTab }) => {
     })
 
 
-
     return (
       <ul className='tab-header'>
         {tabs}
