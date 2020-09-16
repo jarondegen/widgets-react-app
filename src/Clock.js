@@ -28,12 +28,12 @@ class Clock extends React.Component {
         <>
             <div className="clock">
                 <h1>Clock</h1>
-                <div class="clock-container">
-                    <div class="time">
+                <div className="clock-container">
+                    <div className="time">
                         <h1>Time:</h1>
                         <h1>{timeString}</h1>
                     </div>
-                    <div class="date">
+                    <div className="date">
                         <h1>Date:</h1>
                         <h1>{date}</h1>
                     </div>
